@@ -12,7 +12,7 @@ This guide is intended to help you setup the `hcwallet` application using [start
 
 ---
 
-`hcwallet` is the daemon that handles Decred wallet functionality for a single user. It manages all of your accounts, addresses, and transactions; tracks balances across addresses; and allows stakeholders to participate in Proof-of-Stake voting.
+`hcwallet` is the daemon that handles Coolsnady wallet functionality for a single user. It manages all of your accounts, addresses, and transactions; tracks balances across addresses; and allows stakeholders to participate in Proof-of-Stake voting.
 
 In order to run `hcwallet`, a `wallet.db` must exist within `hcwallet`'s home directory. In order for that file to exist, you must create a new wallet. `hcinstall` automatically starts the creation process. If you delete your wallet.db or used another installation process, you'll have to run the [manual wallet creation command](#manual-wallet-creation-command).
 
@@ -20,9 +20,9 @@ In order to run `hcwallet`, a `wallet.db` must exist within `hcwallet`'s home di
 
 !!! danger "Critical Information"
 
-    During the creation process for your wallet, you will be given a sequence of 33 words known as a seed phrase. This seed phrase is essentially the private key for your wallet. You will be able to use this seed phrase to restore your private keys, transaction history, and balances using any Decred wallet on any computer.
+    During the creation process for your wallet, you will be given a sequence of 33 words known as a seed phrase. This seed phrase is essentially the private key for your wallet. You will be able to use this seed phrase to restore your private keys, transaction history, and balances using any Coolsnady wallet on any computer.
 
-    This ultimately means that *anyone* who knows your seed can use it to restore your private keys, transaction history, and balances to a Decred wallet on their computer without your knowledge. For this reason, it is of utmost importance to keep your seed phrase safe. Treat this seed the same way you would treat a physical key to a safe. If you lose your seed phrase, you permanently lose access to your wallet and all funds within it. It cannot be recovered by anyone, including the Decred developers. It is recommended you write it down on paper and store that somewhere secure. If you decide to keep it on your computer, it would be best to keep it in an encrypted document (do not forget the password) in case the file or your computer is stolen.
+    This ultimately means that *anyone* who knows your seed can use it to restore your private keys, transaction history, and balances to a Coolsnady wallet on their computer without your knowledge. For this reason, it is of utmost importance to keep your seed phrase safe. Treat this seed the same way you would treat a physical key to a safe. If you lose your seed phrase, you permanently lose access to your wallet and all funds within it. It cannot be recovered by anyone, including the Coolsnady developers. It is recommended you write it down on paper and store that somewhere secure. If you decide to keep it on your computer, it would be best to keep it in an encrypted document (do not forget the password) in case the file or your computer is stolen.
 
     Every seed phrase is also associated with a 64 character seed hex. The seed hex functions the same way as the seed phrase - `hcwallet` will accept it when attempting to restore your wallet. It is also important to keep your seed hex secure.
 
@@ -94,7 +94,7 @@ The wallet will then be created. This might take a few minutes if you have a slo
 ## Launching hcwallet 
 
 In order to launch `hcwallet`, you first must have [created your wallet](#wallet-creation-walkthrough) and
-[connected hcd to the Decred network](/getting-started/user-guides/hcd-setup.md#connect-to-the-decred-network).
+[connected hcd to the Coolsnady network](/getting-started/user-guides/hcd-setup.md#connect-to-the-Coolsnady-network).
 
 > Configure RPC Username and Password
 
@@ -104,7 +104,7 @@ If you did not use `hcinstall`, you will need to enable the bare minimum setting
 
 > Start hcwallet 
 
-With the correctly set configuration files, open another shell window in your Decred directory (or use the last window if you have just created your wallet). Type the following command (review this guide’s Prerequisites to determine the right command for your OS/Shell application):
+With the correctly set configuration files, open another shell window in your Coolsnady directory (or use the last window if you have just created your wallet). Type the following command (review this guide’s Prerequisites to determine the right command for your OS/Shell application):
 
 ```no-highlight
 hcwallet

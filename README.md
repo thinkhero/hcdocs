@@ -87,14 +87,6 @@ $ docker run -d --rm -p <local port>:80 decred/hcdocs:latest
 
 The below commands must be run when either the content changes or there are updates in the translations in Transifex.  You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
 
-#### Downloading web site code
-
-Make sure you have [git](https://git-scm.com/) installed.
-
-```sh
-git clone https://github.com/decred/dcrweb
-cd dcrweb;
-```
 
 #### Importing new translations and content updates
 
@@ -113,9 +105,7 @@ git commit -m'Translation update'
 git push origin
 ```
 
-This triggers the update on the staging site, which will be rebuilt usually in a few minutes (give it 5):
 
-[https://dcrweb.herokuapp.com/](https://dcrweb.herokuapp.com/)
 
 #### Updating the message catalog
 

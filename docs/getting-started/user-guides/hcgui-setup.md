@@ -1,6 +1,6 @@
 # <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> hcgui Setup Guide
 
-Last updated for v1.2.1.
+Last updated for v2.0.0.
 
 ---
 
@@ -20,7 +20,7 @@ The latest version of hcgui can be downloaded from [https://decred.org/downloads
 
 > Windows
 
-1. Download the Windows installer `hcgui-v1.2.1.exe`.
+1. Download the Windows installer `hcgui-v2.0.0.exe`.
 
 1. Double click the installer and follow the instructions. This will install and automatically start up hcgui to download the Decred blockchain and set up your wallet.
 
@@ -28,22 +28,22 @@ The latest version of hcgui can be downloaded from [https://decred.org/downloads
 
 > macOS
 
-1. Download the `hcgui-v1.2.1.dmg` file.
+1. Download the `hcgui-v2.0.0.dmg` file.
 
-1. Double click the `hcgui-v1.2.1.dmg` file once downloaded to mount the disk image.
+1. Double click the `hcgui-v2.0.0.dmg` file once downloaded to mount the disk image.
 
 1. Drag the hcgui.app into the link to your Applications folder within the disk image.
 
 > Linux
 
-1. Download the `hcgui-v1.2.1.tar.gz` file.
+1. Download the `hcgui-v2.0.0.tar.gz` file.
 
 1. Navigate to download location and extract the .tar.gz file:
 
     Ubuntu File Browser: simply right click on the .tar.gz file and select "Extract Here". <br />
     Terminal: use the `tar -xvzf filename.tar.gz` command.
 
-    Both of these should extract the tar.gz into a folder that shares the same name. (`e.g. tar -xvzf hcgui-v1.2.1.tar.gz` should extract to `hcgui-v1.2.1`). If successful, this new folder should include a `hcgui` executable.
+    Both of these should extract the tar.gz into a folder that shares the same name. (`e.g. tar -xvzf hcgui-v2.0.0.tar.gz` should extract to `hcgui-v2.0.0`). If successful, this new folder should include a `hcgui` executable.
 
 ---
 
