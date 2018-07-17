@@ -1,10 +1,10 @@
-# dcrdocs
+# hcdocs
 
-Documentation for [Decred].
+Documentation for [Coolsnady].
 
 ## Installation
 
-dcrdocs is built with [MkDocs]. In order to install MkDocs you will need [Python] installed on your system, as well as the Python package manager, [pip]. You can check if you have these already installed from the command line:
+hcdocs is built with [MkDocs]. In order to install MkDocs you will need [Python] installed on your system, as well as the Python package manager, [pip]. You can check if you have these already installed from the command line:
 
 ```bash
 $ python --version
@@ -28,7 +28,7 @@ $ pip install --user -r requirements.txt
 Getting started is super easy.
 
 ```bash
-$ cd dcrdocs
+$ cd hcdocs
 ```
 
 There is a single configuration file named `mkdocs.yml`, and a folder named `docs` that will contain the documentation source files. MkDocs comes with a built-in dev-server that lets you preview the documentation as you work on it. Make sure you are in the same directory as the `mkdocs.yml` configuration file, and then start the server by running the `mkdocs serve` command:
@@ -46,7 +46,7 @@ Open up <http://127.0.0.1:8000> in your browser, and you will see the default ho
 
 ## Building the site
 
-To deploy dcrdocs, first build the documentation:
+To deploy hcdocs, first build the documentation:
 
 ```bash
 $ mkdocs build
@@ -66,11 +66,11 @@ $ mkdocs build --help
 
 ## Deploying
 
-The version of dcrdocs that you just built only uses static files which are all contained in the `site/`, directory so you will be able to host it from pretty much anywhere. You can view a live version of the documentation at https://docs.decred.org.
+The version of hcdocs that you just built only uses static files which are all contained in the `site/`, directory so you will be able to host it from pretty much anywhere. You can view a live version of the documentation at https://docs.decred.org.
 
 ### Docker
 
-dcrdocs can also be hosted in a docker container. Build the container using
+hcdocs can also be hosted in a docker container. Build the container using
 
 ```bash
 $ ./build_docker.sh
@@ -79,7 +79,7 @@ $ ./build_docker.sh
 The container can then be run with
 
 ```bash
-$ docker run -d --rm -p <local port>:80 decred/dcrdocs:latest
+$ docker run -d --rm -p <local port>:80 decred/hcdocs:latest
 ```
 
 
@@ -139,12 +139,12 @@ npm run transifex:push
 
 ## Getting help
 
-To get help with dcrdocs, please use the [forum], [GitHub issues], or the Decred development IRC channel `#decred-dev` on freenode.
+To get help with hcdocs, please use the [forum], [GitHub issues], or the Decred development IRC channel `#decred-dev` on freenode.
 
 [Chocolatey]: https://chocolatey.org
 [Decred]: https://github.com/decred
 [forum]: https://forum.decred.org
-[GitHub issues]: https://github.com/decred/dcrdocs/issues
+[GitHub issues]: https://github.com/decred/hcdocs/issues
 [mkdocs-bootswatch]: https://mkdocs.github.io/mkdocs-bootswatch
 [MkDocs]: https://mkdocs.org
 [pip]: http://pip.readthedocs.org/en/latest/installing.html
