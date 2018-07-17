@@ -1,4 +1,4 @@
-# <img class="hc-icon" src="/img/hc-icons/Constitution.svg" /> Coolsnady Constitution
+# <img class="dcr-icon" src="/img/dcr-icons/Constitution.svg" /> Coolsnady Constitution
 
 ---
 

@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/ObtainingCoolsnady.svg" /> Obtaining HC
+# <img class="dcr-icon" src="/img/dcr-icons/ObtainingDecred.svg" /> Obtaining HC
 
 ---
 
@@ -16,7 +16,7 @@ The five basic ways are:
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/PurchasingHC.svg" /> Purchasing Coolsnady
+## <img class="dcr-icon" src="/img/dcr-icons/PurchasingDCR.svg" /> Purchasing Coolsnady
 
 There is a variety of ways to purchase Coolsnady listed on the [Coolsnady website](https://Coolsnady.org/exchanges/).
 

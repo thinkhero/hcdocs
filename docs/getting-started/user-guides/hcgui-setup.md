@@ -1,4 +1,4 @@
-# <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> hcgui Setup Guide
+# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> hcgui Setup Guide
 
 Last updated for v1.2.1.
 
@@ -51,13 +51,13 @@ The latest version of hcgui can be downloaded from [https://decred.org/downloads
 
 Opening hcgui for the first time will display the following screen:
 
-![hcgui startup screen](/img/hcgui/startup.png)
+![hcgui startup screen](/img/decrediton/startup.png)
 
 Select your desired language and press **Continue**. A short presentation explaining Decred blockchain, wallet, keys, staking/governance, and safety tips is shown. Please read these slides carefully if you are new to Decred.
 
 The following screen should be displayed next.
 
-![hcgui blockchain download screen](/img/hcgui/chain-downloading.png)
+![hcgui blockchain download screen](/img/decrediton/chain-downloading.png)
 
 A large progress bar on this screen shows the progress of the blockchain download. You can begin to set up your wallet before the download completes. 
 
@@ -73,7 +73,7 @@ As hcgui allows you to manage multiple wallets on one PC, you must give a name t
 
 1. **Restore Existing Wallet** - Press this button if you already have a wallet seed. You can skip ahead to [Restore Existing Wallet From Seed](/getting-started/user-guides/hcgui-setup.md#restore-existing-wallet-from-seed)
 
-![hcgui create wallet screen](/img/hcgui/create-wallet.png)
+![hcgui create wallet screen](/img/decrediton/create-wallet.png)
 
 ---
 
@@ -91,11 +91,11 @@ As hcgui allows you to manage multiple wallets on one PC, you must give a name t
 
 The 33 word seed for your new wallet is displayed on the screen (obscured in the below image). Record the seed and store it somewhere safe.
 
-![hcgui wallet seed screen](/img/hcgui/wallet-seed.png)
+![hcgui wallet seed screen](/img/decrediton/wallet-seed.png)
 
 Press **Continue** and re-enter the missing words from your seed on the next screen. This is to confirm you have recorded your seed correctly.
 
-![hcgui seed entry screen](/img/hcgui/seed-entered.png)
+![hcgui seed entry screen](/img/decrediton/seed-entered.png)
 
 Create a private passphrase for your wallet. This passphrase will be used to unlock your wallet when creating transactions.
 

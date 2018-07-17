@@ -48,7 +48,7 @@ Giving away these coins in an airdrop accomplished several things for the projec
 
 ---
 
-## <img class="hc-icon" src="/img/hc-icons/Sources.svg" /> Sources 
+## <img class="dcr-icon" src="/img/dcr-icons/Sources.svg" /> Sources 
 
 [^8550]: Decred Forum, [Post 8,550](https://forum.decred.org/threads/567/#post-8550)
 [^14482]: [Decred Constitution](/getting-started/constitution.md)
